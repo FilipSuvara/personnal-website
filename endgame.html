@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <a class="ikonica" href="javascript:void(0);" onClick="myfynction();">
+        <img class="slika-ikonice" src="ayo.png" alt="slika"/>
+    <nav class="nav">
+        <a class="link" href="midgame.html">Midgame</a>
+        <a class="link" href="openings.html">Opening</a>
+        <a class="link" href="index.html">Home page</a>
+        <a class="link" href="o meni.html">About me</a>
+        <a class="link" href="https://www.youtube.com/watch?v=-i9wcusTwSo" target="_blank">Learn chess notation</a>
+    </nav>
+    
+    <nav class="nav-mobile" id="nav-mobile">
+        <a class="links-mobile" href="index.html">HOME PAGE</a>
+        <a class="links-mobile" href="midgame.html">Midgame</a>
+        <a class="links-mobile" href="openings.html">Opening</a>
+        <a class="links-mobile" href="o meni.html">About me</a>
+        <a class="links-mobile" href="https://www.youtube.com/watch?v=-i9wcusTwSo">learn chess notation</a>
+    </nav>
+    <h1>3. chapter Endgame</h1>
+    <div class="endgame-box">
+        <img  src="chess-endgame-principles-passed-pawn.png" alt="">
+        <h2>Endgames are the hardest stage of the chess game.
+        In endgames every move counts.One of the most
+        important things in an endgame is king activity.
+        In this Endgame both kings are far,that is why
+        here black can sacrifice his bishop on C3 if white
+        takes black pushes the pawn and makes a queen on 
+        the next move.Some endgames are theoretical.There
+        are a lot of studies of endgames.</h2>
+    </div>
+    <script>
+        function myfynction(){
+        var navigacija=document.getElementById("nav-mobile")
+        if(navigacija.style.display==="flex"){
+       navigacija.style.display="none";
+       }
+       else{
+           navigacija.style.display="flex";
+       }
+   
+       }
+         
+   
+       </script>
+
+</body>
+</html>

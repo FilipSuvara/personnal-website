@@ -1,0 +1,202 @@
+html {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{ 
+    background: rgb(38,31,78);
+    background: radial-gradient(circle, rgba(38,31,78,0.5551470588235294) 0%, rgba(198,209,88,0.5439425770308124) 100%);
+
+}
+h1{ 
+    color:rgb(0, 0, 0);
+    margin: 77px;
+    font-size:70px ;
+    text-align:center;
+
+}
+.nav-mobile{display:none;}
+
+p{
+    text-align: center;
+    font-size:30px ;
+    font-family: fantasy;
+    
+    }
+
+h2{ 
+    color:rgba(0, 0, 0, 0.724);
+    margin: 69px;
+    font-size:50px ;
+    text-align:center;
+}
+h3{
+text-align: center;
+font-size:30px ;
+font-family: fantasy;
+
+}
+h4{
+    font-size:25px ;
+}
+
+.opening{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+        align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(38,31,78);
+    background: radial-gradient(circle, rgba(38,31,78,0.5551470588235294) 0%, rgba(198,209,88,0.5439425770308124) 100%);
+ }
+    .link {
+ text-decoration:none ;
+ color: rgb(0, 0, 0);
+ font-size: 25px ;
+ padding: 20px;
+}
+img {
+    width: 400px; ;
+    height: 400px;
+}
+
+.slike{
+    display: flex;
+    flex-wrap:wrap ;
+    gap:30px ;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1-midgame{
+    font-size:40px ;
+    text-align: center;
+
+
+}
+.h2-midgame{
+text-align: center;
+
+
+}
+.midgame{
+    display: flex;
+}
+.endgame-box{
+    display: flex;
+
+}
+
+
+@media only screen and (max-width:769px){
+    body{
+        position: relative;
+    }
+    .nav {
+        display: none;
+        
+    }
+    .slika-ikonice{width:50px;
+    height:50px ;
+    }
+         
+    .endgame-box{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+
+        width:300px ;
+        height:300px ;
+    }
+    h1 {
+        font-size:40px;
+        margin-top:20px;
+        margin-bottom:20px;
+    
+    }
+    h2{
+        font-size: 32px;
+        margin: 5px;
+    }
+    .link{
+        font-size:20px ;
+    }
+    .opening{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    p{
+        text-align: center;
+
+
+    }
+    h4{
+text-align: center;
+
+    }
+    .h1-o-meni{
+        font-size:30px ;
+    }
+
+    .midgame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size:20px ;
+        width: 100%;
+    }
+    .h2-midgame{
+        font-size:20px ;
+    
+    }
+    .h3-midgame{
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .nav-mobile {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(238,227,174);
+        background: radial-gradient(circle, rgba(238,227,174,1) 0%, rgba(33,27,51,1) 100%);
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        left: -8px;
+    }
+    .links-mobile {
+    text-decoration:none;
+    color: black;
+    font-size:30px ;
+    font-weight:500 ;
+
+    }
+    
+}
+
+@media only screen and (min-width:767px){
+
+
+.nav-mobile{display:none;}
+.ikonica{
+    display:none;
+}
+.nav {
+    display: flex;
+    
+}
+
+
+}

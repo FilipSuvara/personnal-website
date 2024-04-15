@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <a class="link" href="openings.html">Opening</a>
+        <a class="link" href="endgame.html">Endgame</a>
+        <a class="link" href="index.html">Home page</a>
+        <a class="link" href="o meni.html">About me</a>
+        <a class="link" href="https://www.youtube.com/watch?v=-i9wcusTwSo" target="_blank">Learn chess notation</a>
+    </nav>
+    <a class="ikonica" href="javascript:void(0);" onClick="myfynction();">
+        <img class="slika-ikonice" src="ayo.png" alt="slika"/>
+        <nav class="nav-mobile" id="nav-mobile">
+            <a class="links-mobile" href="index.html">HOME PAGE</a>
+            <a class="links-mobile" href="openings.html">Opening</a>
+            <a class="links-mobile" href="endgame.html">Endgame</a>
+            <a class="links-mobile" href="o meni.html">About me</a>
+            <a class="links-mobile" href="https://www.youtube.com/watch?v=-i9wcusTwSo">Learn chess notation</a>
+        </nav>
+    <h1 class="h1-midgame">
+
+    2. chapter midgame
+    </h1>
+    <h2 class="h2-midgame">
+        There are 2 types of middlegames in chess there 
+        is a strategy(you play a long fight manouvering 
+        pieces and getting them to the best squares.
+        The point of the strategy is to attack the weak 
+        spots in the opponents teritory. Goal of the strategy is to go to the winning endgame)
+        and there is tactical(point of the tactical middlegame is to go for the opponents king) middlegame.
+
+    </h2>
+    <div class="midgame">
+        <img src="greek gift.PNG" alt="molim vas restartujte kompjuter">
+        <p class="h3-midgame">
+            Very popular pattern in a midgame is this: 
+            greek gift sacrifice. Bishop sacrifices himself 
+            on H7 for a huge attack after the king takes knight jumps 
+            on g5  to give a check and queen will come soon to checkmate the opponent.
+        </p>
+
+    </div>
+    <script>
+        function myfynction(){
+        var navigacija=document.getElementById("nav-mobile")
+        if(navigacija.style.display==="flex"){
+       navigacija.style.display="none";
+       }
+       else{
+           navigacija.style.display="flex";
+       }
+   
+       }
+         
+   
+       </script>
+    
+    
+    
+</body>
+</html>
